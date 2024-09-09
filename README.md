@@ -12,8 +12,12 @@
 
 ## music_tag 部署
 
-`music_tag` 是一个音乐标签管理的 Web 服务，以下是快速部署的命令：
+`music_tag` 是一个音乐标签管理的 Web 服务。
 
+- 官网：[music_tag 官网](https://github.com/xhongc/music_tag_web)
+- GitHub：[music_tag GitHub](https://github.com/xhongc/music_tag_web)
+
+以下是快速部署的命令：
 ```bash
 docker run -d \
     -p 8001:8001 \
@@ -27,7 +31,12 @@ docker run -d \
 
 ## portainer 部署
 
-Portainer 是一个用于管理 Docker 环境的轻量级服务。使用以下命令进行部署：
+Portainer 是一个用于管理 Docker 环境的轻量级服务。
+
+- 官网：[Portainer 官网](https://www.portainer.io/)
+- GitHub：[Portainer GitHub](https://github.com/portainer/portainer)
+
+使用以下命令进行部署：
 
 ```bash
 docker run -d \
@@ -43,8 +52,11 @@ docker run -d \
 注意：`/var/run/docker.sock` 是容器内部目录，**不要修改**。
 
 ## mt-photos 部署
+mt-photos` 是一个照片管理服务。
 
-`mt-photos` 是一个照片管理服务，以下是 Docker Compose 配置文件示例：
+- GitHub：[mt-photos GitHub](https://github.com/mtphotos/mt-photos)
+
+以下是 Docker Compose 配置文件示例：
 
 ```yaml
 version: "3"
